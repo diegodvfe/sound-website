@@ -6,6 +6,17 @@
 
 .logo__spotify {
     height:40px;
-    
     margin: 5px;
+}
+
+.mainnav .actived {
+ color: red;
+}
+
+.mainnav .actived::after {
+    content: "";
+    background-color: red;
+    display:block;
+    height: 1px;
+    margin-top: 5px;
 }
