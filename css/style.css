@@ -4,12 +4,20 @@
     box-sizing: border-box;
 }
 
+body {
+    min-width: 350px;
+}
+
 .logo__spotify {
     height:40px;
     margin: 5px;
 }
 
-.mainnav .actived {
+.mainnav {
+    background: #000000;
+}
+
+.hero-nav .actived {
  color: red;
 }
 
@@ -19,4 +27,22 @@
     display:block;
     height: 1px;
     margin-top: 5px;
+}
+
+.link-social__media a {
+    text-decoration: none;
+    list-style: none;
+    color:#fff;
+}
+
+.nav-item::hover {
+    background-color:red;
+    background: red;
+}
+
+.hero__section {
+    background-image: url("../images/audio.jpg");
+    min-height: 500px;
+    background-position:25% 55%;
+    background-size: 100% ;
 }
