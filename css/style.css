@@ -17,7 +17,7 @@ body {
     background: #000000;
 }
 
-.hero-nav .actived {
+.mainnav .actived {
  color: red;
 }
 
@@ -41,8 +41,32 @@ body {
 }
 
 .hero__section {
-    background-image: url("../images/audio.jpg");
+    background-image: url("../images/audifonos8.jpeg");
     min-height: 500px;
     background-position:25% 55%;
     background-size: 100% ;
+}
+
+.hero__nav {
+    color:red;
+}
+
+.hero__nav > .nav-item > .nav-link{
+background-color: transparent;
+color:white;
+}
+
+.hero__nav .active::after {
+    content: "";
+    background-color: red;
+    height:2px;
+    display:block;
+    margin-top:5px;
+}
+
+/* sonng items styles */
+
+.song__item {
+    background-color:#090941;
+    border-radius:5px;
 }

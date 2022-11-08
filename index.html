@@ -77,7 +77,7 @@
                     </ul>
                   </li>
 
-                  <img class="rounded-circle" src="images/elvis.jpg" style="width:40px; height:40px;" alt="">
+                  <img class="rounded-circle" src="images/elvis.jpg" style="width:40px; height:40px; object-fit:cover;" alt="">
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Hola Diego
@@ -96,22 +96,64 @@
           <!-- end the navigation -->
 
           <div class="hero__section p-2 text-white">
-            <ul class="hero-nav nav nav-pills mb-3 m-4" id="pills-tab" role="tablist">
+            <ul class="hero__nav nav nav-pills mb-3 m-4" id="pills-tab" role="tablist">
               <li class="nav-item" role="presentation">
                 <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Estrenos</button>
               </li>
               <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Trending</button>
               </li>
               <li class="nav-item" role="presentation">
                 <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Nuevos estrenos</button>
               </li>
-              <li class="nav-item" role="presentation">
-                <!-- <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false" disabled>Disabled</button> -->
-              </li>
+              <!-- <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false" disabled>Disabled</button>
+              </li> -->
             </ul>
             <div class="tab-content" id="pills-tabContent">
-              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">1</div>
+              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                <!-- song item -->
+                <div class="song__item col-sm-6 m-1 ms-4 row align-items-center">
+                  <div class=" col-1 h4">01</div>
+                     <div class=" col m-2 d-flex" >
+                        <img src="images/juanes-hija.jpg" style="height:50px; width:50px; object-fit:cover;" alt="">
+                        <div class="text-song ms-2">
+                          <div>Tengo la camisa negra</div>
+                          <small class="text-muted">A song description</small>
+                        </div>
+                    </div>
+                  <div class=" col-2 d-flex ms-2">
+                    <!-- <i class="bi bi-play-circle"></i> -->
+                    05:00 min
+                  </div>
+                </div>
+
+                <div class="song__item col-sm-6 m-1 ms-4 row align-items-center">
+                  <div class=" col-1 h4 ">02</div>
+                     <div class=" col m-2 d-flex " >
+                        <img class="" src="images/ed-sheeran.jpg" style="height:50px; width:50px; object-fit: cover;" alt="">
+                        <div class="text-song ms-2">
+                         <div >My heart </div>
+                        <small class="text-muted">A song description</small>
+                        </div>
+                    </div>
+                  <div class=" col-2">03:10 min</div>
+                </div>
+
+                <div class="song__item col-sm-6 m-1 ms-4 row align-items-center">
+                  <div class=" col-1 h4">03</div>
+                     <div class=" col m-2 d-flex" >
+                        <img src="images/juanes-hija.jpg" style="height:50px; width:50px;" alt="">
+                        <div class="text-song ms-2">
+                          <div>Tengo tu amor</div>
+                          <span class="text-muted"> A song description</span>
+                        </div>
+                    </div>
+                  <div class=" col-2">04:18 min</div>
+                </div>
+
+
+              </div>
               <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">2</div>
               <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">3</div>
               <!-- <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">...</div> -->
