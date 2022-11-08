@@ -67,8 +67,20 @@ color:white;
 /* sonng items styles */
 
 .song__item {
-    background: rgb(2, 1, 24);
-background: linear-gradient(90deg, rgba(2,0,36,0.9699230033810399) 0%, rgba(0,0,42,1) 56%, rgba(5,141,144,1) 80%, rgba(0,245,255,0) 100%);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 20, 0.97) 0%, rgb(0, 0, 27) 18%, rgb(2, 77, 78) 43%, rgba(32, 208, 214, 0) 100%);
     border-radius:5px;
+
+    transition:  0.3s ease-out;
 }
 
+.song__item:hover {
+    border:solid thin grey;
+    cursor: pointer;
+    transform:translateX(-10px);
+}
+
+.img__song-small {
+
+    height:50px; width:50px; object-fit: cover; border-radius: 5px;
+}
