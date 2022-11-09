@@ -91,6 +91,19 @@ color:white;
     font-size:25px;
 }
 
+.song-category > small > a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    margin:15px;
+}
+
+.song-category >a::after:hover {
+    background: linear-gradient(90deg, rgba(1,168,187,1) 18%, rgba(9,0,161,0.9699230033810399) 59%, rgba(0,245,255,0.82) 100%);
+    color:rgb(10, 175, 186)
+}
+
 .song-category::after {
    
     content: "";
@@ -136,4 +149,4 @@ color:white;
 .section__card-songs {
    flex-wrap: wrap;
    justify-content: center;
-}
+   align-content: flex-start;}
