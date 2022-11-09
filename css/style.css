@@ -43,8 +43,8 @@ body {
 
 .hero__section {
     background-image: url("../images/audifonos8.jpeg");
-    min-height: 450px;
-    background-position:25% 35%;
+    min-height: 550px;
+    background-position:35% 35%;
     background-size: 100% ;
 }
 
