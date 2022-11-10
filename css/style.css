@@ -69,7 +69,7 @@ color:white;
 
 .song__item {
     background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgba(0, 0, 20, 0.97) 0%, rgb(0, 0, 27) 18%, rgb(2, 77, 78) 43%, rgba(32, 208, 214, 0) 100%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.99) 0%, rgb(0, 0, 27) 18%, rgb(2, 77, 78) 43%, rgba(32, 208, 214, 0) 100%);
     border-radius:5px;
 
     transition:  0.3s ease-out;
@@ -149,4 +149,10 @@ color:white;
 .section__card-songs {
    flex-wrap: wrap;
    justify-content: center;
-   align-content: flex-start;}
+   align-content: flex-start;
+}
+
+.footer-song  a {
+    text-decoration: none;
+    color: white;
+}
